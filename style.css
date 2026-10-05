@@ -1,0 +1,371 @@
+body {
+  background-image: url(./Assets/images/Ellipse\ 8.png);
+  background-repeat: no-repeat;
+  margin: 70px;
+  /* font-family: poppins; */
+  font-family: "Outfit", sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  gap: 50px;
+  font-family: Google Sans;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sign-up-button {
+  border: none;
+  border-radius: 4px;
+  width: 70px;
+}
+
+.big-div1 {
+  display: flex;
+  justify-content: space-between;
+}
+.desc1 {
+  font-size: 20px;
+  color: #df6951;
+  font-family: "Outfit", sans-serif;
+}
+.desc2 {
+  font-size: 84px;
+  color: #181e4b;
+  font-family: Volkhov;
+}
+.paragraph1 {
+  font-size: 16px;
+  color: #5e6282;
+  font-family: "Outfit", sans-serif;
+}
+
+.explore {
+  display: flex;
+}
+.play-demo {
+  display: flex;
+}
+
+.play-button {
+  height: 5rem;
+  width: 5rem;
+}
+
+.more {
+  height: 2rem;
+  margin-top: 12px;
+  background-color: #f1a501;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: Google Sans;
+  font-size: 18px;
+}
+
+.play {
+  margin-top: 15px;
+}
+.div-service {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.category {
+  color: #5e6282;
+  font-size: 18px;
+}
+
+.services {
+  color: #14183e;
+  font-family: Volkhov;
+  font-size: 50px;
+}
+
+h4 {
+  color: #1e1d4c;
+  font-family: Open Sans;
+  font-size: 20px;
+}
+
+.ser-p {
+  color: #5e6282;
+  font-size: 16px;
+}
+
+.main-serv {
+  display: flex;
+  justify-content: space-around;
+}
+.div-serv {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#Flights-border {
+  border-radius: 35px;
+
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+  width: 170px;
+  padding: 20px;
+  min-height: 30vh;
+  background-color: white;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-h {
+  color: #5e6282;
+}
+
+.icon-p {
+  color: #5e6282;
+  font-size: 12px;
+}
+
+.trip-sec {
+  width: 24%;
+  background-color: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+  height: 21rem;
+  padding: 30px;
+  border-radius: 26px;
+  margin-top: 5rem;
+  color: #84829a;
+}
+.Greece {
+  margin-bottom: 0;
+}
+.dateName {
+  display: flex;
+  margin-top: 0;
+}
+.illustration {
+  display: flex;
+  gap: 10px;
+}
+.building-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 16px;
+}
+.trip-icon {
+  display: flex;
+  gap: 15px;
+}
+.trip-herosec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  font-size: 16px;
+}
+.Greece {
+  color: #080809;
+  font-size: 18px;
+}
+.testimonial-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.happy-sec {
+  width: 27rem;
+  background-color: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+  height: 15rem;
+  border-radius: 26px;
+  margin-top: 5rem;
+  color: #5e6282;
+}
+
+.expression {
+  margin-left: 2rem;
+}
+.mike {
+  margin-top: 2rem;
+  margin-bottom: 2px;
+}
+
+.pakistan {
+  margin-top: 0;
+}
+.chris {
+  margin-left: 7rem;
+  color: #5e6282;
+}
+.about-us {
+  color: #14183e;
+  font-family: Volkhov;
+  font-size: 50px;
+}
+.loading-img {
+  margin-top: 150px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.qantas {
+  width: 162px;
+  height: 32px;
+}
+
+.alitalia {
+  width: 94px;
+  height: 21px;
+}
+.axon {
+  width: 130px;
+  height: 130px;
+}
+.jetstar {
+  width: 172.86px;
+  height: 110px;
+}
+.expedia {
+  width: 241px;
+  height: 162px;
+  margin-top: 5rem;
+}
+.subscription {
+  justify-content: center;
+  align-items: center;
+  width: 1275px;
+  height: 407px;
+  background-color: rgba(88, 70, 229, 0.1);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+}
+.subscribe-p {
+  color: #5e6282;
+  text-align: center;
+  padding: 7%;
+  font-size: 33px;
+  font-family: Poppins;
+}
+.email-btn {
+  height: 2.5rem;
+  margin-top: 12px;
+  background-color: white;
+  color: #39425d;
+  border: none;
+  border-radius: 10px;
+  width: 16rem;
+}
+.subscribe-btn {
+  margin-top: 12px;
+  background-color: #ff7d68;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 8rem;
+  height: 2.5rem;
+}
+.btn {
+  gap: 6px;
+}
+.tel-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.last-sect {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+.jadoo {
+  margin-top: 0;
+  font-size: 44px;
+  color: #181e4b;
+  font-family: Poppins;
+}
+.last-sect p {
+  color: #5e6282;
+}
+
+.last-sect,
+h2 {
+}
+.las-tect,
+h3 {
+  color: #181e4b;
+  font-size: 21px;
+  font-weight: 700;
+}
+.img-email {
+  margin-top: 10px;
+}
+.apps {
+  margin-left: 5%;
+  font-size: 20px;
+  color: #5e6282;
+}
+
+.downloaded-img {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.country-cards {
+  display: flex;
+  margin-top: 10%;
+  color: #5e6282;
+}
+.country {
+  background-image: url(./Assets/images/Rectangle\ 14.png);
+  width: 80%;
+  height: 62vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.card {
+  width: 100%;
+  height: 17vh;
+  background-color: white;
+  margin-left: 77px;
+  position: absolute;
+  bottom: 0;
+}
+.rome {
+  display: flex;
+  gap: 35%;
+  padding: 5% 10% 0 10%;
+  margin-bottom: 1px;
+  color: #5e6282;
+  font-family: sans-serif;
+}
+.nav-trip {
+  padding: 0 10% 0 10%;
+  margin-top: 0;
+}
+#london {
+  background-image: url(./Assets/images/Rectangle\ 14\ \(1\).jpg);
+}
+#europe {
+  background-image: url(./Assets/images/Rectangle 14.png);
+}
